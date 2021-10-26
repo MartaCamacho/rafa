@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const Body = () => {
   return (
     <section class="text-gray-600 body-font">
@@ -17,10 +19,12 @@ const Body = () => {
         <div class="flex flex-wrap -m-4">
           <div class="xl:w-1/4 md:w-1/2 p-4">
             <div class="bg-gray-100 p-6 rounded-lg">
-              <img
+              <Image
                 class="h-40 rounded w-full object-cover object-center mb-6"
-                src="https://dummyimage.com/720x400"
+                src="/images/poe.jpg"
                 alt="content"
+                width="720"
+                height="400"
               />
               <h3 class="tracking-widest text-blue-500 text-xs font-medium title-font">
                 POESÍA
@@ -28,15 +32,17 @@ const Body = () => {
               <h2 class="text-lg text-gray-900 font-medium title-font mb-4">
                 Puesías 1
               </h2>
-              <p class="leading-relaxed text-base">Un libro con rimas y tal.</p>
+              <p class="leading-relaxed text-base">Estoy trabajando para publicar mi primera antología, pero tengo más escritas. Más información muy pronto. Mientras tanto visita <a href="https://arrobaralo.wordpress.com/">mi blog de poesía</a></p>
             </div>
           </div>
           <div class="xl:w-1/4 md:w-1/2 p-4">
             <div class="bg-gray-100 p-6 rounded-lg">
-              <img
+              <Image
                 class="h-40 rounded w-full object-cover object-center mb-6"
-                src="https://dummyimage.com/721x401"
+                src="/images/fic.jpg"
                 alt="content"
+                width="720"
+                height="400"
               />
               <h3 class="tracking-widest text-blue-500 text-xs font-medium title-font">
                 NOVELA
@@ -51,10 +57,12 @@ const Body = () => {
           </div>
           <div class="xl:w-1/4 md:w-1/2 p-4">
             <div class="bg-gray-100 p-6 rounded-lg">
-              <img
+              <Image
                 class="h-40 rounded w-full object-cover object-center mb-6"
-                src="https://dummyimage.com/722x402"
+                src="/images/crea.jpg"
                 alt="content"
+                width="720"
+                height="400"
               />
               <h3 class="tracking-widest text-blue-500 text-xs font-medium title-font">
                 GUIÓN
@@ -69,10 +77,12 @@ const Body = () => {
           </div>
           <div class="xl:w-1/4 md:w-1/2 p-4">
             <div class="bg-gray-100 p-6 rounded-lg">
-              <img
+              <Image
                 class="h-40 rounded w-full object-cover object-center mb-6"
-                src="https://dummyimage.com/723x403"
+                src="/images/preguntas.jpg"
                 alt="content"
+                width="720"
+                height="400"
               />
               <h3 class="tracking-widest text-blue-500 text-xs font-medium title-font">
                 POESÍA

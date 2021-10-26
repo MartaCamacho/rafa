@@ -1,14 +1,18 @@
+import Image from 'next/image';
+
 const Welcome = () => {
   return (
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto flex flex-col">
         <div className="lg:w-4/6 mx-auto">
           <div className="rounded-lg h-64 overflow-hidden">
-            <img
-              alt="content"
-              className="object-cover object-center h-full w-full"
-              src="./public/images/1200x500.jpg"
-            ></img>
+            <Image
+              alt="Ralo background"
+              className="object-cover object-center h-full"
+              src="/images/1200x500.jpg"
+              width="1200"
+              height="500"
+            />
           </div>
           <div className="flex flex-col sm:flex-row mt-10">
             <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
@@ -28,7 +32,7 @@ const Welcome = () => {
               </div>
               <div className="flex flex-col items-center text-center justify-center">
                 <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">
-                  Rafael López
+                rALo
                 </h2>
                 <div className="w-12 h-1 bg-blue-500 rounded mt-2 mb-4"></div>
                 <p className="text-base">
@@ -38,10 +42,7 @@ const Welcome = () => {
             </div>
             <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
               <p className="leading-relaxed text-lg mb-4">
-                Se define como una persona amiga de sus amigos, que lo mismo te
-                escribe un guión que una novela o una poesía. La mayoría de las
-                veces te va a hablar de la muerte y de lo que pasa mientras
-                mueres. No te quedarás indiferente después de conocerle.
+              rALo es un pseudónimo con el que he decidido firmar todo mi trabajo creativo. Soy un hombre nacido en el 82 heterosexual y Español. ¿Por qué utilizar un pseudónimo? Por esconderme un poco, por qué no reconocerlo. Por focalizar mi creatividad. Porque tanto si te importa lo que tiene que decir como si no, no es relevante quien sea ralo. 
               </p>
             </div>
           </div>
