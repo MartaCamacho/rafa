@@ -36,7 +36,7 @@ const Welcome = () => {
                 </h2>
                 <div className="w-12 h-1 bg-blue-500 rounded mt-2 mb-4"></div>
                 <p className="text-base">
-                  Escritor, humorista, cineasta y mucho más.
+                <i>Poe</i>ta, <i>story</i>ador, <i>cine</i>asta y <i>busca</i>dor.
                 </p>
               </div>
             </div>
