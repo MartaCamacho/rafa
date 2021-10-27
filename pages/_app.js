@@ -12,6 +12,7 @@ export default function MyApp({ Component, pageProps }) {
           name="description"
           content="Mis libros son mundialmente conocidos, y si no lo son, lo serán"
         />
+        <link rel="icon" href="../public/images/favicon.ico"/>
       </Head>
       <Component {...pageProps} />
     </>
